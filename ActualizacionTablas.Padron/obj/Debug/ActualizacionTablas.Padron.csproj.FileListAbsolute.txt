@@ -1,0 +1,7 @@
+C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\ActualizacionTablas.Padron.exe.config
+C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\ActualizacionTablas.Padron.exe
+C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\ActualizacionTablas.Padron.pdb
+C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csprojAssemblyReference.cache
+C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.exe
+C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.pdb

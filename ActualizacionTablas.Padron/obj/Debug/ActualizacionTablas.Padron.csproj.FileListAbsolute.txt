@@ -5,3 +5,17 @@ C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\Actual
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.CoreCompileInputs.cache
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.exe
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.pdb
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\ActualizacionTablas.Padron.exe.config
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\ActualizacionTablas.Padron.exe
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\ActualizacionTablas.Padron.pdb
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.CoreCompileInputs.cache
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.exe
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.pdb
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.dll
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.SqlServer.dll
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.xml
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.SqlServer.xml
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.CopyComplete
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\Newtonsoft.Json.dll
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\Newtonsoft.Json.xml
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.AssemblyReference.cache

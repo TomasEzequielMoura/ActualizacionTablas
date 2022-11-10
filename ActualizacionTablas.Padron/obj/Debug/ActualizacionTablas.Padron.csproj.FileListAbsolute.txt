@@ -16,9 +16,6 @@ E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\
 E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.xml
 E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.SqlServer.xml
 E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.CopyComplete
-E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\Newtonsoft.Json.dll
-E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\Newtonsoft.Json.xml
-E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.AssemblyReference.cache
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.dll
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\Newtonsoft.Json.dll
@@ -26,3 +23,4 @@ C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\Actual
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\Newtonsoft.Json.xml
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.CopyComplete
+E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.AssemblyReference.cache

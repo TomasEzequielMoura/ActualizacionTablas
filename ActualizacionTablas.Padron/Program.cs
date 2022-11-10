@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -47,25 +46,34 @@ namespace ActualizacionTablas.Padron
                     // Create a new file     
                     while ((line = sr.ReadLine()) != null)
                     {
-                        string NroIdentificacion = line.Substring(0, 11);
-                        string Denominacion = line.Substring(11, 160);
-                        string Actividad = line.Substring(171, 6);
-                        string MarcaDeBaja = line.Substring(177, 1);
-                        string NumIdentificacionDeReemplazo = line.Substring(178, 11);
-                        string Fallecimiento = line.Substring(189, 1);
+                        if (line.Length == 190)
+                        {
+                            string NroIdentificacion = line.Substring(0, 11);
+                            string Denominacion = line.Substring(11, 160);
+                            string Actividad = line.Substring(171, 6);
+                            string MarcaDeBaja = line.Substring(177, 1);
+                            string NumIdentificacionDeReemplazo = line.Substring(178, 11);
+                            string Fallecimiento = line.Substring(189, 1);
+                            tw.WriteLine($"{NroIdentificacion};{Denominacion};{Actividad};{MarcaDeBaja};{NumIdentificacionDeReemplazo};{Fallecimiento};");
+                            if (i % 100_000 == 0)
+                                Console.WriteLine("inserte 100.000, total: " + i);
+                        }
+                        else if (line.Length == 189){
+                            string NroIdentificacion = line.Substring(0, 11);
+                            string Denominacion = line.Substring(11, 159);
+                            string Actividad = line.Substring(170, 6);
+                            string MarcaDeBaja = line.Substring(176, 1);
+                            string NumIdentificacionDeReemplazo = line.Substring(177, 11);
+                            string Fallecimiento = line.Substring(188, 1);
+                            tw.WriteLine($"{NroIdentificacion};{Denominacion} ;{Actividad};{MarcaDeBaja};{NumIdentificacionDeReemplazo};{Fallecimiento};");
+                            if (i % 100_000 == 0)
+                                Console.WriteLine("inserte 100.000, total: " + i);
+                        }
+                        else
+                        {
+                            Console.WriteLine("error de largo de: " + line + "\n" + line.Length);
+                        }
 
-                        //lote.Add(registroPadron);
-
-                        //if (i % 100 == 0)
-                        //{
-                        //    db.registrosPadron.AddRange(lote);
-                        //    db.SaveChanges();
-                        //    lote.Clear();
-                        //    Console.WriteLine("inserte i: " + i);
-                        //}
-                        tw.WriteLine($"{NroIdentificacion};{Denominacion};{Actividad};{MarcaDeBaja};{NumIdentificacionDeReemplazo};{Fallecimiento};");
-                        if (i % 100_000 == 0)
-                            Console.WriteLine("inserte 100.000, total: " + i);
                         i++;
                     }
                     tw.Close();
@@ -77,8 +85,10 @@ namespace ActualizacionTablas.Padron
                 //Cambiar nombre de nueva tabla
             }
             catch (Exception ex) {
-                Console.WriteLine(JsonConvert.SerializeObject(ex));
-                Console.WriteLine("line: " + line);
+                //Console.WriteLine(JsonConvert.SerializeObject(ex));
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("line: {" + line + "}");  
+                Console.WriteLine("line: {" + line.Length + "}");
                 Console.WriteLine("i: " + i);
             }
 

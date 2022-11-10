@@ -15,15 +15,13 @@ namespace ActualizacionTablas.Padron
         static void Main(string[] args)
         {
             int i = 1;
-
+            string line = "";
             try
             {
                 using (FileStream fs = File.Open(PATH, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                 using (BufferedStream bs = new BufferedStream(fs))
                 using (StreamReader sr = new StreamReader(bs))
                 {
-                    string line;
-
                     var lote = new List<RegistroPadron>();
 
                     TextWriter tw = null;
@@ -80,6 +78,7 @@ namespace ActualizacionTablas.Padron
             }
             catch (Exception ex) {
                 Console.WriteLine(JsonConvert.SerializeObject(ex));
+                Console.WriteLine("line: " + line);
                 Console.WriteLine("i: " + i);
             }
 

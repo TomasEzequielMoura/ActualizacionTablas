@@ -49,7 +49,7 @@ namespace ActualizacionTablas.Padron
                         if (line.Length == 190)
                         {
                             string NroIdentificacion = line.Substring(0, 11);
-                            string Denominacion = line.Substring(11, 160);
+                            string Denominacion = line.Substring(11, 160).Replace(';', ',');
                             string Actividad = line.Substring(171, 6);
                             string MarcaDeBaja = line.Substring(177, 1);
                             string NumIdentificacionDeReemplazo = line.Substring(178, 11);
@@ -60,7 +60,7 @@ namespace ActualizacionTablas.Padron
                         }
                         else if (line.Length == 189){
                             string NroIdentificacion = line.Substring(0, 11);
-                            string Denominacion = line.Substring(11, 159);
+                            string Denominacion = line.Substring(11, 159).Replace(';', ',');
                             string Actividad = line.Substring(170, 6);
                             string MarcaDeBaja = line.Substring(176, 1);
                             string NumIdentificacionDeReemplazo = line.Substring(177, 11);

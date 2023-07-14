@@ -9,7 +9,7 @@ namespace ActualizacionTablas.Padron
 {
     class Program
     {
-        const string PATH = @"C:\BaseBCRA\Padron_AFIP.txt";
+        const string PATH = @"C:\Users\Geronimo\Downloads\20230630PADRON\Padron_AFIP.txt";
 
         static void Main(string[] args)
         {
@@ -25,7 +25,7 @@ namespace ActualizacionTablas.Padron
 
                     TextWriter tw = null;
 
-                    string path = @"C:\BaseBCRA\Padron.txt";
+                    string path = @"C:\Users\Geronimo\Downloads\Padron.txt";
 
                     //File.Delete(path);
 
@@ -49,7 +49,7 @@ namespace ActualizacionTablas.Padron
                         if (line.Length == 190)
                         {
                             string NroIdentificacion = line.Substring(0, 11);
-                            string Denominacion = line.Substring(11, 160).Replace(';', ',');
+                            string Denominacion = line.Substring(11, 160).Replace(';', ',').Replace("'"," ").Replace('-', ' ');
                             string Actividad = line.Substring(171, 6);
                             string MarcaDeBaja = line.Substring(177, 1);
                             string NumIdentificacionDeReemplazo = line.Substring(178, 11);
@@ -60,7 +60,7 @@ namespace ActualizacionTablas.Padron
                         }
                         else if (line.Length == 189){
                             string NroIdentificacion = line.Substring(0, 11);
-                            string Denominacion = line.Substring(11, 159).Replace(';', ',');
+                            string Denominacion = line.Substring(11, 159).Replace(';', ',').Replace("'"," ").Replace('-', ' ');
                             string Actividad = line.Substring(170, 6);
                             string MarcaDeBaja = line.Substring(176, 1);
                             string NumIdentificacionDeReemplazo = line.Substring(177, 11);

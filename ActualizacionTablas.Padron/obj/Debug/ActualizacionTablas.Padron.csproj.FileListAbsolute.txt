@@ -24,3 +24,14 @@ C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\Actual
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\Newtonsoft.Json.xml
 C:\Users\79\Desktop\ActionFintech\ActualizacionTablas\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.CopyComplete
 E:\ProgramacionPersonal\ReposGit\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.AssemblyReference.cache
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\ActualizacionTablas.Padron.exe.config
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\ActualizacionTablas.Padron.exe
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\ActualizacionTablas.Padron.pdb
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.dll
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.SqlServer.dll
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.xml
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\bin\Debug\EntityFramework.SqlServer.xml
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.CoreCompileInputs.cache
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.CopyComplete
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.exe
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.pdb

@@ -43,13 +43,36 @@ namespace ActualizacionTablas.Padron
                         //tw.Close();
                     }
 
+                    string denominacionParcial = "";
+                    string Denominacion = "";
+                    
+
+                    byte[] bytes = { };
+                    int cantidadBytes = 0;
+
                     // Create a new file     
                     while ((line = sr.ReadLine()) != null)
                     {
                         if (line.Length == 190)
                         {
                             string NroIdentificacion = line.Substring(0, 11);
-                            string Denominacion = line.Substring(11, 160).Replace(';', ',').Replace("'"," ").Replace('-', ' ');
+                            
+                            // si byteCount > 130 sacar las ñ y los ° por un espacio
+                            denominacionParcial = line.Substring(11, 160);
+                            //byteCount = ASCIIEncoding.ASCII.GetByteCount(denominacionParcial);
+
+                            bytes = Encoding.UTF8.GetBytes(denominacionParcial);
+                            cantidadBytes = bytes.Length;
+                            //int cantidadBits = cantidadBytes * 8;
+
+                            if (cantidadBytes > 160)
+                            {
+                                Denominacion = line.Substring(11, 160).Replace(';', ',').Replace("'", " ").Replace('-', ' ').Replace('ñ', 'n').Replace('°', ' ');
+                            }else
+                            {
+                                Denominacion = line.Substring(11, 160).Replace(';', ',').Replace("'"," ").Replace('-', ' ');
+                            }
+
                             string Actividad = line.Substring(171, 6);
                             string MarcaDeBaja = line.Substring(177, 1);
                             string NumIdentificacionDeReemplazo = line.Substring(178, 11);
@@ -60,7 +83,20 @@ namespace ActualizacionTablas.Padron
                         }
                         else if (line.Length == 189){
                             string NroIdentificacion = line.Substring(0, 11);
-                            string Denominacion = line.Substring(11, 159).Replace(';', ',').Replace("'"," ").Replace('-', ' ');
+                            denominacionParcial = line.Substring(11, 159);
+                            //byteCount = ASCIIEncoding.ASCII.GetByteCount(denominacionParcial);
+                            bytes = Encoding.UTF8.GetBytes(denominacionParcial);
+                            cantidadBytes = bytes.Length;
+                            //int cantidadBits = cantidadBytes * 8;
+
+                            if (cantidadBytes > 160)
+                            {
+                                Denominacion = line.Substring(11, 159).Replace(';', ',').Replace("'", " ").Replace('-', ' ').Replace('ñ', ' ').Replace('°', ' ');
+                            }
+                            else
+                            {
+                                Denominacion = line.Substring(11, 159).Replace(';', ',').Replace("'", " ").Replace('-', ' ');
+                            }
                             string Actividad = line.Substring(170, 6);
                             string MarcaDeBaja = line.Substring(176, 1);
                             string NumIdentificacionDeReemplazo = line.Substring(177, 11);

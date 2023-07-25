@@ -35,3 +35,4 @@ C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\Ac
 C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.CopyComplete
 C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.exe
 C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.pdb
+C:\RepoActionFintech\ActualizacionTablas\ActualizacionTablas.Padron\obj\Debug\ActualizacionTablas.Padron.csproj.AssemblyReference.cache
